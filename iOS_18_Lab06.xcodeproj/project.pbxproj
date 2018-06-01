@@ -14,6 +14,7 @@
 		926DA79D20C1734700B1393C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926DA79B20C1734700B1393C /* LaunchScreen.storyboard */; };
 		926DA7A820C1734700B1393C /* iOS_18_Lab06Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA7A720C1734700B1393C /* iOS_18_Lab06Tests.swift */; };
 		926DA7B320C1734700B1393C /* iOS_18_Lab06UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA7B220C1734700B1393C /* iOS_18_Lab06UITests.swift */; };
+		926DA7C120C17C1C00B1393C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926DA7C020C17C1C00B1393C /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		926DA7AE20C1734700B1393C /* iOS_18_Lab06UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_18_Lab06UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		926DA7B220C1734700B1393C /* iOS_18_Lab06UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_18_Lab06UITests.swift; sourceTree = "<group>"; };
 		926DA7B420C1734700B1393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926DA7C020C17C1C00B1393C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				926DA79220C1734700B1393C /* AppDelegate.swift */,
 				926DA79420C1734700B1393C /* ViewController.swift */,
 				926DA79620C1734700B1393C /* Main.storyboard */,
+				926DA7C020C17C1C00B1393C /* Color.swift */,
 				926DA79920C1734700B1393C /* Assets.xcassets */,
 				926DA79B20C1734700B1393C /* LaunchScreen.storyboard */,
 				926DA79E20C1734700B1393C /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				926DA79520C1734700B1393C /* ViewController.swift in Sources */,
 				926DA79320C1734700B1393C /* AppDelegate.swift in Sources */,
+				926DA7C120C17C1C00B1393C /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
