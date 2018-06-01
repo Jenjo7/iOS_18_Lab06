@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var first: UITextField!
     @IBOutlet weak var second: UITextField!
     @IBOutlet weak var third: UITextField!
-    @IBOutlet weak var numberOfSave: UILabel!
+    @IBOutlet weak var num: UILabel!
     
     let doc = FileManager.default.urls(for: .documentDirectory, in:  .userDomainMask)[0].appendingPathComponent("colori.lista")
     
@@ -41,8 +41,8 @@ class ViewController: UIViewController {
         
         listaSalvata.append(new)
         NSKeyedArchiver.archiveRootObject(listaSalvata, toFile: doc.path)
+        num.text = listaSalvata.count.description
     }
-    
     
     
 }
